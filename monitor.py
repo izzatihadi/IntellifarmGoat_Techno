@@ -17,7 +17,7 @@ b = 0.0600
 intercept = 25.1534
 
 # Calculate the 'Y' values using the regression formula
-data['Y'] = intercept + (a * data['Temperature']) + (b * data['Heartbeat']) + 47
+data['Y'] = intercept + (a * data['Temperature']) + (b * data['Heartbeat']) 
 
 # Define the health status criteria
 lower_limit = 10.0195
