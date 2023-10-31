@@ -13,4 +13,4 @@ to the immediate needs of goat farmers but also targets governmental and agricul
 fostering collaborative research efforts in disease prevention and livestock health improvement.
 
 # Flowchart for goat health monitoring
-![Identify potential diseases based on symptoms.](Flowchart-goat-health-monitoring.jpg)
+![Identify potential diseases based on symptoms.](Flowchart-Goat-Health-Monitoring.jpg)
