@@ -1,11 +1,11 @@
 import pandas as pd
 import statsmodels.api as sm
 
-# Load the Excel file into a DataFrame
+# Load Excel file
 data = pd.read_excel("C:/Users/Nor Sa'adah/Downloads/Technopreneurship/Machine Learning/.vscode/data.xlsx")
 print(data)
 
-# Extract the 'Temperature' and 'Heartbeat' columns from the Excel data
+# Extract the 'Temperature' and 'Heartbeat' columns from the Excel
 X = data[['Temperature', 'Heartbeat']]
 
 # Add a constant for the intercept
