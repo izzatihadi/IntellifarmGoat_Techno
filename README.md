@@ -1,7 +1,7 @@
 # Techno_Goat
 Machine Learning to monitor goat health status based on its body temperature and heartbeat.
 
-# Overview of Intellifarm Project
+## Overview of Intellifarm Project
 The 'Intellifarm Goat' project presents an innovative solution to revolutionize livestock management 
 within the goat farming industry. Facing the challenges of manual health monitoring, our project 
 introduces a comprehensive system employing advanced technology and data analytics. The core 
@@ -12,5 +12,5 @@ dashboard utilizing machine learning techniques for predictive modeling. The pro
 to the immediate needs of goat farmers but also targets governmental and agricultural agencies, 
 fostering collaborative research efforts in disease prevention and livestock health improvement.
 
-# Flowchart for goat health monitoring
+## Flowchart for goat health monitoring
 ![Identify potential diseases based on symptoms.](Flowchart-Goat-Health-Monitoring.jpg)
