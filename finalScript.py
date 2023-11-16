@@ -60,13 +60,13 @@ def potential_disease(row):
     elif row['Fever'] == 'N' and row['DifficultyBreathing'] == 'N' and row['Fatigue'] == 'N' and row['Cough'] == 'Y':
         return 'Pneumonia'
     else:
-        return ''
+        return '-'
 
 # Determine the potential disease for goats based on its symptoms
 data['Potential Disease'] = data.apply(potential_disease, axis=1)
 
 # Arrange the columns
-column_order = ['Goat ID', 'Temperature', 'Heartbeat', 'Y', 'Health Status', 'Fever', 'DifficultyBreathing', 'Fatigue', 'Cough', 'Potential Disease']
+column_order = ['Goat ID', 'Temperature', 'Heartbeat', 'Fever', 'DifficultyBreathing', 'Fatigue', 'Cough', 'Y', 'Health Status', 'Potential Disease']
 data = data[column_order]
 
 # Save the updated data with 'Y', 'Health Status' columns to a new Excel file
